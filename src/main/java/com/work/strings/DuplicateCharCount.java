@@ -20,3 +20,5 @@ public class DuplicateCharCount {
         }
     }
 }
+
+// it print only the duplicate characters whose count > 1.
