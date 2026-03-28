@@ -5,14 +5,13 @@ import java.util.Scanner;
 public class ReverseEachWord {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String str= sc.nextLine();;
+        String str= sc.nextLine();
 
         String[] words=str.split(" ");
         for(int i=0;i<words.length;i++){
             StringBuilder sb=new StringBuilder(words[i]);
-            sb.reverse();
+            sb.reverse().toString();
             System.out.print(sb+" ");
-
         }
     }
 }
