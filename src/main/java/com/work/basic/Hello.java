@@ -1,4 +1,4 @@
-package com.work;
+package com.work.basic;
 
 public class Hello {
     public static void main(String[] args) {
