@@ -22,3 +22,7 @@ public class DuplicateCharCount {
 }
 
 // it print only the duplicate characters whose count > 1.
+//Programming
+//r = 2
+//g = 2
+//m = 2
