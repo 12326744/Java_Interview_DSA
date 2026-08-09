@@ -1,20 +1,19 @@
-package com.work.allpractice;
+package com.work.tcs_nqt;
 
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 
-public class UniqueCharacter1 {
+public class PrintUniqueChar {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
 
-        LinkedHashSet<Character> seen=new LinkedHashSet<>();
+        LinkedHashSet<Character> set=new LinkedHashSet<>();
         for (char ch:str.toCharArray()){
-            seen.add(ch);
+            set.add(ch);
         }
-
-        for (char ch:seen){
-            System.out.print(ch+"");
+        for (char ch:set){
+            System.out.print(ch);
         }
     }
 }
